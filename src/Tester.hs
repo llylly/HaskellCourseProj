@@ -36,6 +36,7 @@ play goal = do
   put (g2, s'')
   tell (Sum 1)
   liftIO $ putStrLn $ "you guess " ++ (show x) ++ " -> (" ++ (show r1) ++ ", " ++ (show r2) ++ ")"
+  liftIO $ putStrLn $ show $ length s''
   when (x /= goal) $ play goal
 
 playSilence :: Int -> Game ()
