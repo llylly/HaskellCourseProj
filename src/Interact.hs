@@ -1,4 +1,4 @@
-module Tester (
+module Interact (
   play,
   playSilence
 ) where

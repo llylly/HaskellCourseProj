@@ -1,7 +1,7 @@
 module Main where
 
 import Guess
-import Tester
+import Interact
 import System.Random
 import Text.Printf
 import Data.List
